@@ -1,4 +1,6 @@
- const snakeCase = string => {
+//https://www.w3schools.com/html/
+
+const snakeCase = string => {
   return string.replace(/\W+/g, " ")
     .split(/ /)
     .map(word => word.toLowerCase())
